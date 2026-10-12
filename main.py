@@ -30,7 +30,7 @@ from database import connect, get_db, init_db
 log = logging.getLogger("homework")
 
 TZ = ZoneInfo(os.getenv("APP_TZ", "Asia/Tehran"))
-KEEP_DAYS = int(os.getenv("HOMEWORK_KEEP_DAYS", "45"))   # تکلیف‌های قدیمی‌تر حذف می‌شوند
+KEEP_DAYS = int(os.getenv("HOMEWORK_KEEP_DAYS", "45"))   # تکلیف‌های قدیمی‌تر حذف موند
 MAX_AHEAD_DAYS = 120                                      # حداکثر فاصله تاریخ تکلیف از امروز
 MAX_PERIODS = 8
 
